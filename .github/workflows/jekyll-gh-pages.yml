@@ -42,7 +42,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ https://github.com/jiayinglin123/A2-Movie_Box_Prediction/tree/main/demo }}
     runs-on: ubuntu-latest
     needs: build
     steps:
